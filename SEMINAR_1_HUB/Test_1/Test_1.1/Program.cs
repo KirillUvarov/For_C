@@ -29,7 +29,7 @@ num = Convert.ToInt32(Console.ReadLine()); //Говорим, что num надо
     }
      if (num == 7)
     {
-         Console.WriteLine($"Воскресение");
+         Console.WriteLine($"Воскресенье");
     }
       if (num > 7)
     {
