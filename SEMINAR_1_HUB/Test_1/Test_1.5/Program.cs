@@ -1,5 +1,18 @@
 ﻿Console.Write("Введите число: ");
-int b; 
-b = Convert.ToInt32(Console.ReadLine());
-int a=1;
-while (a<b)
+int a; 
+a = Convert.ToInt32(Console.ReadLine());
+int b;
+b = (a % 2);
+int number.Lenght = ((a - b)/2);
+int index = 0;
+
+if (b==0)
+    {
+        while (index<number.Lenght)
+        Console.WriteLine(0+2);
+        index+=1;
+    }
+else
+{
+   // Console.WriteLine($"Нет");
+}

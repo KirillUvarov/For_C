@@ -6,9 +6,9 @@ b = (a % 2);
 
 if (b==0)
     {
-        Console.WriteLine($"Да");
+        Console.WriteLine($"Чётное");
     }
 else
 {
-    Console.WriteLine($"Нет");
+    Console.WriteLine($"Нечётное");
 }
