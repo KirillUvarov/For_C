@@ -1,18 +1,12 @@
-﻿Console.Write("Введите число: ");
-int a; 
-a = Convert.ToInt32(Console.ReadLine());
-int b;
-b = (a % 2);
-int number.Lenght = ((a - b)/2);
-int index = 0;
+﻿//Принимает число n и выводит все чётные от единицы до n
+Console.Write("Введите число: ");
+int number; 
+number = Convert.ToInt32(Console.ReadLine());
+int a = 2;
 
-if (b==0)
+    while (a <= number)
     {
-        while (index<number.Lenght)
-        Console.WriteLine(0+2);
-        index+=1;
+    Console.Write(a);
+    Console.Write($", ");
+    a+=2;
     }
-else
-{
-   // Console.WriteLine($"Нет");
-}
