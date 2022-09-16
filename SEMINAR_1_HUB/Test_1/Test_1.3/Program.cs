@@ -8,14 +8,21 @@ Console.Write("Введите число 3: ");
 int c;
 c = Convert.ToInt32(Console.ReadLine());
 
-maxNum = 0;
+int index=0
+int maxNum = 0;
 
 if (a>b)
     {
         maxNum=a;
+        index+=1;
     }
 else
     {
         maxNum=b;
+        index+=1;
     }
 Console.WriteLine(maxNum);
+while (inex<3)
+{
+    
+}
