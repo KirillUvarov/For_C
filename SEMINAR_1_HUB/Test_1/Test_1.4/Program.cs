@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Введите число: ");
+int a; 
+a = Convert.ToInt32(Console.ReadLine());
+int b;
+b = (a % 2);
+
+if (b==0)
+    {
+        Console.WriteLine($"Да");
+    }
+else
+{
+    Console.WriteLine($"Нет");
+}
