@@ -1,4 +1,4 @@
-﻿Console.Clear();
+﻿//Console.Clear();
 Console.Write("Введите трёх(или больше)-значное  число: "); // Просим оператора ввести данные
 int num;
 num = Convert.ToInt32(Console.ReadLine());

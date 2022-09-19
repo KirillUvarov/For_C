@@ -1,7 +1,7 @@
 ﻿Console.Write("Введите цифру, соответствующую дню недели: ");
 int day = Convert.ToInt32(Console.ReadLine());
 
-void HollyDay (int day) 
+void Weekend (int day) 
 {
   if (day == 6) 
   {
@@ -22,4 +22,4 @@ void HollyDay (int day)
   else Console.WriteLine("Нет");
 }
 
-HollyDay(day);
+Weekend(day);
