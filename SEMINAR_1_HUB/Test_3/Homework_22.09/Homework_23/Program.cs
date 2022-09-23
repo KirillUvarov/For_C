@@ -1,18 +1,10 @@
-﻿Console.WriteLine("Введите координату X первой точки ");
-int x1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату Y первой точки ");
-int y1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату Z второй точки ");
-int z1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату X второй точки ");
-int x2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату Y второй точки ");
-int y2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите координату Z второй точки ");
-int z2 = Convert.ToInt32(Console.ReadLine());
+﻿// Выводим кубы всех чисел между 1 и введённым числом и 
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());;
 
-double d;
-d = Math.Sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
-d = Math.Round(d,2); // округление до 2х символов после запятой
-Console.WriteLine(d);
-//Math.Pow(d,2); - возведение в степень
+int value =3;
+
+for (int start = 1; start <= number; start++)
+{
+    Console.WriteLine($"Куб числа {start} : {Math.Pow(start, value)}");
+}

@@ -8,21 +8,29 @@
 // array[3] = Convert.ToInt32(Console.ReadLine());
 // array[4] = Convert.ToInt32(Console.ReadLine());
 
-int[] array;
-Console.Write("n=");
-int n = int.Parse(Console.ReadLine());
-array = new int[n];
+
+Console.WriteLine("Введите массив из 5 элементов:");
+int n = 5;//int.Parse(Console.ReadLine());
+int[] array = new int[n];;
+
+
 for (int i = 0; i < n; i++)
 {
-    Console.Write("A [{0}] = ", i);
+    Console.Write($"A [{i}] = ", i);
     array[i] = int.Parse(Console.ReadLine());
 }
-while (int elem in array) 
+// while (int elem in array) 
+// {
+     Console.Write($"Массив: A[{array[0]}, {array[1]}, {array[2]}, {array[3]}, {array[4]}]");
+// }
+if (array[0] == array[4] && array[1] == array[3])
 {
-    Console.Write($"{0}", elem);
+    Console.Write(" Является полиндромом");
 }
-
-
+else 
+{
+Console.Write(" Не является полиндромом");
+}
 
 
 // int[] array = {11, 211, 61, 31, 41, 15, 61, 17, 18 };
