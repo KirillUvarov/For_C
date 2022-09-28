@@ -33,12 +33,14 @@ void SelectionSortMaxToMin(int[] array)
         int maxPosition = z;
         for (int x = z + 1; x < array.Length; x++)
         {
-            int temporary = array[z];
-            array[z] = array[maxPosition];
-            array[maxPosition] = temporary;
-        }
-
+           if(array[x] > array[maxPosition]) maxPosition = x;
+        } 
+    
+        int temporary = array[z];
+        array[z] = array[maxPosition];
+        array[maxPosition] = temporary;
     }
+    
 }
 
 PrintArray(arr);
